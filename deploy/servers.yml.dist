@@ -1,0 +1,15 @@
+prod:
+    host:
+    port:
+    user:
+    password:
+    stage: production
+    deploy_path: /home/webuser/expo
+
+dev:
+    host:
+    port:
+    user:
+    password:
+    stage: develop
+    deploy_path: /home/webuser/expo

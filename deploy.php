@@ -92,6 +92,14 @@ task('reload:php73-fpm', function () {
     run('sudo /usr/sbin/service php7.3-fpm reload');
 });
 
+task('npm_install', function () {
+    run('cd {{release_path}}/spa && npm ci --allow-root --unsafe-perm=true');
+});
+
+task('npm_run_build', function () {
+    run('cd {{release_path}}/spa && npm run build');
+});
+
 task('prepare', [
     'deploy:prepare',
     'deploy:release',
@@ -99,10 +107,10 @@ task('prepare', [
     'deploy:shared',
     'deploy:writable',
     'deploy:copy_dirs',
-    'deploy:vendors',
+    // 'deploy:vendors',
     'deploy:symlink',
     'cleanup',
-    'reload:php71-fpm',
+    'reload:php73-fpm',
 ])->desc('Prepare library, using first time deploy');
 
 task('deploy', [
@@ -112,13 +120,15 @@ task('deploy', [
     'deploy:shared',
     'deploy:writable',
     'deploy:copy_dirs',
-    'deploy:vendors',
-    'database:migrate',
+    // 'deploy:vendors',
+    // 'database:migrate',
     'save_version',
+    'npm_install',
+    'npm_run_build',
     'deploy:symlink',
     'deploy:links',
     'cleanup',
-    'reload:php71-fpm'
+    'reload:php73-fpm'
 ])->desc('Deploy');
 
 task('demo', [

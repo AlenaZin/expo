@@ -1,12 +1,14 @@
-* {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 
 html, body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
 }
 #app {
   /*background: url("../images/ExpoSerg.png") no-repeat top left;*/

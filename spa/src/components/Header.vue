@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header container">
     <div class="header__logo">
       <img src="~@/assets/images/logo.png"/>
     </div>
@@ -21,8 +21,8 @@
       </ul>
     </nav>
 
-    <div class="header__dutton">
-      <button class="header__dutton_text">Оставить заявку</button>
+    <div class="header__button">
+      <button class="header__button_text">Оставить заявку</button>
     </div>
 
   </div>
@@ -56,18 +56,17 @@
     list-style: none;
     margin-right: 33px;
   }
-  .header__navigation_link li :last-child {
+  .header__navigation_link li:last-child {
     margin-right: 0;
   }
   .header__navigation_link a {
     color:           inherit;
     text-decoration: none;
   }
-  .header__dutton {
+  .header__button {
     margin: auto 0;
   }
-  .header__dutton_text {
-    background: #0075FF;
+  .header__button_text {
     border-radius: 27px;
     width: 216px;
     height: 54px;
@@ -76,5 +75,6 @@
     line-height: 27px;
     color: #FFFFFF;
     border: 1px solid #D1D2D6;
+    background: url("~@/assets/images/header_button.png") #0075FF no-repeat top left;
   }
 </style>

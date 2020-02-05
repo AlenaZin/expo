@@ -11,7 +11,7 @@
           <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
         </ul>
         <div class="services__result">
-          <p class="services__result-text">Резульнат:</p>
+          <p class="services__result-text">Резульnат:</p>
         </div>
         <p class="services__result_text">Презентация с концепциями + заполенный бриф по выбранной концепции для
           обращения к застройщику</p>
@@ -33,7 +33,7 @@
             присутствие на заезде, приемка готового стенда</li>
         </ul>
         <div class="services__result">
-          <p class="services__result-text">Резульнат:</p>
+          <p class="services__result-text">Резульnат:</p>
         </div>
         <p class="services__result_text">оригинальный стенд без проблем!</p>
         <div class="services__info">
@@ -55,7 +55,7 @@
           <li>Личное присутствие на выставке для своевременного решения любых возникающих вопросов</li>
         </ul>
         <div class="services__result">
-          <p class="services__result-text">Резульнат:</p>
+          <p class="services__result-text">Резульnат:</p>
         </div>
         <p class="services__result_text">стенд под ключ!</p>
         <div class="services__info">

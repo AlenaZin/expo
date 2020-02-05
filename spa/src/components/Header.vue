@@ -48,7 +48,7 @@
   .header__navigation_link {
     max-width: 588px;
     display: flex;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     padding: 0;
   }

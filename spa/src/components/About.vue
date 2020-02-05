@@ -79,5 +79,6 @@
     font-size: 64px;
     line-height: 64px;
     color: #0075FF;
+    margin-top: 35px;
   }
 </style>

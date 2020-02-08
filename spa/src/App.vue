@@ -6,6 +6,7 @@
     <Project3D/>
     <Services/>
     <Express/>
+    <Working/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   import Project3D from './components/Project3D';
   import Services from './components/Services';
   import Express from './components/Express';
+  import Working from './components/Working';
 
   export default {
     name: 'app',
@@ -27,6 +29,7 @@
       Project3D,
       Services,
       Express,
+      Working,
     },
   };
 </script>

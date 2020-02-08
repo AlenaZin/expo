@@ -35,7 +35,7 @@
         <div class="services__result">
           <p class="services__result-text">Резульnат:</p>
         </div>
-        <p class="services__result_text">оригинальный стенд без проблем!</p>
+        <p class="services__result_text">Оригинальный стенд без проблем!</p>
         <div class="services__info">
           <p>Срок: мин. 4 недели</p>
           <p>Стоимость: 10% от стоимости стенда</p>
@@ -57,7 +57,7 @@
         <div class="services__result">
           <p class="services__result-text">Резульnат:</p>
         </div>
-        <p class="services__result_text">стенд под ключ!</p>
+        <p class="services__result_text">Стенд под ключ!</p>
         <div class="services__info">
           <p>Срок: мин. 4 недели</p>
           <p>Стоимость: 15% от стоимости стенда</p>

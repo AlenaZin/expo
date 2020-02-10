@@ -7,6 +7,7 @@
     <Services/>
     <Express/>
     <Working/>
+    <Advantage/>
   </div>
 </template>
 
@@ -19,6 +20,7 @@
   import Services from './components/Services';
   import Express from './components/Express';
   import Working from './components/Working';
+  import Advantage from './components/Advantage';
 
   export default {
     name: 'app',
@@ -30,6 +32,7 @@
       Services,
       Express,
       Working,
+      Advantage,
     },
   };
 </script>

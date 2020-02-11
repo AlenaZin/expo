@@ -36,14 +36,11 @@
             согласованному бюджету и будет полностью соответствовать 3-д проекту!</p>
           <img class="advantage__img" src="~@/assets/images/advantage_nerves.png">
         </div>
-
-        <div class="clear"></div>
-
       </div>
+      <div class="clear"></div>
 
     </div>
   </div>
-
 </template>
 
 <script>
@@ -87,10 +84,7 @@
     left: -30px;
     z-index: -1;
   }
- .advantag__block:last-child {
-    margin-top: 50px;
-  }
-  .margin {
+ .right-column:last-child {
     margin-top: 160px;
   }
   .right-column {

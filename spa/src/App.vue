@@ -8,6 +8,7 @@
     <Express/>
     <Working/>
     <Advantage/>
+    <Footer/>
   </div>
 </template>
 
@@ -21,10 +22,12 @@
   import Express from './components/Express';
   import Working from './components/Working';
   import Advantage from './components/Advantage';
+  import Footer from './components/Footer';
 
   export default {
     name: 'app',
     components: {
+      Footer,
       Header,
       BlockExpo,
       About,

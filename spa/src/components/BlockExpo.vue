@@ -1,29 +1,35 @@
 <template>
-  <div class="block-expo container">
-    <div class="expo">
-      <div class="expo__title">
-        <h1>Выставка легко </h1>
-        <b>—</b>
-      </div>
-      <p class="expo__subtitle">организатор выставок<br>
-        и конференций любой сложности<br>
-        и любого профиля</p>
-      <div class="expo__list">
-        <ul>
-          <li>Не хотите быть «как все», но не можете придумать креативную идею стенда?</li>
-          <li>Ни разу не участвовали в выставках и не знаете, с чего начать?</li>
-          <li>Нет времени на составление брифов, поиск подрядчиков, многочасовые совещания
-            и отслеживание всех нюансов успешной выставки?
-          </li>
-        </ul>
-      </div>
+  <div class="block-expo">
+    <img class="block-expo__img1" src="~@/assets/images/expo_1.png">
+    <img class="block-expo__img2" src="~@/assets/images/expo_2.png">
+    <img class="block-expo__img3" src="~@/assets/images/expo_3.png">
+    <div class="expo container">
+      <div class="expo__text">
+        <div class="expo__title">
+          <h1>Выставка легко </h1>
+          <b>—</b>
+        </div>
+        <p class="expo__subtitle">организатор выставок<br>
+          и конференций любой сложности<br>
+          и любого профиля</p>
+        <div class="expo__list">
+          <ul>
+            <li>Не хотите быть «как все», но не можете придумать креативную идею стенда?</li>
+            <li>Ни разу не участвовали в выставках и не знаете, с чего начать?</li>
+            <li>Нет времени на составление брифов, поиск подрядчиков, многочасовые совещания
+              и отслеживание всех нюансов успешной выставки?
+            </li>
+          </ul>
+        </div>
 
-      <p class="expo__welcome">Здравствуйте! Меня зовут Сергей, и я решу Ваши проблемы.</p>
-    </div>
-    <div class="foto">
-      <img class="foto__img" src="~@/assets/images/ExpoSerg.png"/>
+        <p class="expo__welcome">Здравствуйте! Меня зовут Сергей, и я решу Ваши проблемы.</p>
+      </div>
+      <div class="foto">
+        <img class="foto__img" src="~@/assets/images/ExpoSerg.png"/>
+      </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -34,10 +40,30 @@
 
 <style scoped>
   .block-expo {
+    position: relative;
+    z-index: -2;
+  }
+  .block-expo img {
+    position: absolute;
+    z-index: -1;
+  }
+  .block-expo__img1 {
+    top: -248px;
+    left: 80px;
+  }
+  .block-expo__img2 {
+    top: 0;
+    right: 0;
+  }
+  .block-expo__img3 {
+    top: -151px;
+    right: 359px;
+  }
+  .expo {
     display:    flex;
     margin-top: 40px;
   }
-  .expo {
+  .expo__text {
     width:      65%;
     margin-top: 50px;
   }

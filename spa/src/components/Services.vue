@@ -1,66 +1,71 @@
 <template>
-  <div class="services container">
-    <h2 class="services__title">Пакеты услуг</h2>
-    <div class="services__packages">
+  <div class="block-services">
+    <img class="block-services__img1" src="~@/assets/images/service_1.png">
+    <img class="block-services__img2" src="~@/assets/images/service_2.png">
+    <img class="block-services__img3" src="~@/assets/images/service_3.png">
+    <div class="services container">
+      <h2 class="services__title">Пакеты услуг</h2>
+      <div class="services__packages">
 
-      <div class="services__block mini">
-        <p class="services__namber font-bebas">01</p>
-        <h3 class="services__subtitle">Минимальный</h3>
-        <ul class="services__list">
-          <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
-          <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
-        </ul>
-        <div class="services__result">
-          <p class="services__result-text">Резульnат:</p>
+        <div class="services__block mini">
+          <p class="services__namber font-bebas">01</p>
+          <h3 class="services__subtitle">Минимальный</h3>
+          <ul class="services__list">
+            <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
+            <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
+          </ul>
+          <div class="services__result">
+            <p class="services__result-text">Резульnат:</p>
+          </div>
+          <p class="services__result_text">Презентация с концепциями + заполенный бриф по выбранной концепции для
+            обращения к застройщику</p>
+          <div class="services__info">
+            <p>Срок: 5 рабочих дней</p>
+            <p>Стоимость: 10 000 руб.</p>
+          </div>
         </div>
-        <p class="services__result_text">Презентация с концепциями + заполенный бриф по выбранной концепции для
-          обращения к застройщику</p>
-        <div class="services__info">
-          <p>Срок: 5 рабочих дней</p>
-          <p>Стоимость: 10 000 руб.</p>
-        </div>
-      </div>
 
-      <div class="services__block standard">
-        <p class="services__namber font-bebas">02</p>
-        <h3 class="services__subtitle">Стандартный</h3>
-        <ul class="services__list">
-          <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
-          <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
-          <li>Разработка 3-д модели стенда по выбранной концепции с неограниченным количеством правок, а также
-            подробной сметой на застройку</li>
-          <li>Круглосуточные консультации по вопросам организации выставки, заполнение документов на заезд и выезд,
-            присутствие на заезде, приемка готового стенда</li>
-        </ul>
-        <div class="services__result">
-          <p class="services__result-text">Резульnат:</p>
+        <div class="services__block standard">
+          <p class="services__namber font-bebas">02</p>
+          <h3 class="services__subtitle">Стандартный</h3>
+          <ul class="services__list">
+            <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
+            <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
+            <li>Разработка 3-д модели стенда по выбранной концепции с неограниченным количеством правок, а также
+              подробной сметой на застройку</li>
+            <li>Круглосуточные консультации по вопросам организации выставки, заполнение документов на заезд и выезд,
+              присутствие на заезде, приемка готового стенда</li>
+          </ul>
+          <div class="services__result">
+            <p class="services__result-text">Резульnат:</p>
+          </div>
+          <p class="services__result_text">Оригинальный стенд без проблем!</p>
+          <div class="services__info">
+            <p>Срок: мин. 4 недели</p>
+            <p>Стоимость: 10% от стоимости стенда</p>
+          </div>
         </div>
-        <p class="services__result_text">Оригинальный стенд без проблем!</p>
-        <div class="services__info">
-          <p>Срок: мин. 4 недели</p>
-          <p>Стоимость: 10% от стоимости стенда</p>
-        </div>
-      </div>
 
-      <div class="services__block maxi">
-        <p class="services__namber font-bebas">03</p>
-        <h3 class="services__subtitle">Максимальный</h3>
-        <ul class="services__list">
-          <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
-          <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
-          <li>Разработка 3-д модели стенда по выбранной концепции с неограниченным количеством правок, а также
-            подробной сметой на застройку</li>
-          <li>Сопровождение всего документооборота: договор и оплата площади, договор на застройку, документы на заезд
-            и выезд, дополнительные услуги, закрывающие документы по всем договорам</li>
-          <li>Личное присутствие на выставке для своевременного решения любых возникающих вопросов</li>
-        </ul>
-        <div class="services__result">
-          <p class="services__result-text">Резульnат:</p>
-        </div>
-        <p class="services__result_text">Стенд под ключ!</p>
-        <div class="services__info">
-          <p>Срок: мин. 4 недели</p>
-          <p>Стоимость: 15% от стоимости стенда</p>
+        <div class="services__block maxi">
+          <p class="services__namber font-bebas">03</p>
+          <h3 class="services__subtitle">Максимальный</h3>
+          <ul class="services__list">
+            <li>Оценка Вашего рынка, конкурентов, выставочной истории</li>
+            <li>Разработка трех концепций стенда с учетом Ваших пожеланий и бюджета</li>
+            <li>Разработка 3-д модели стенда по выбранной концепции с неограниченным количеством правок, а также
+              подробной сметой на застройку</li>
+            <li>Сопровождение всего документооборота: договор и оплата площади, договор на застройку, документы на заезд
+              и выезд, дополнительные услуги, закрывающие документы по всем договорам</li>
+            <li>Личное присутствие на выставке для своевременного решения любых возникающих вопросов</li>
+          </ul>
+          <div class="services__result">
+            <p class="services__result-text">Резульnат:</p>
+          </div>
+          <p class="services__result_text">Стенд под ключ!</p>
+          <div class="services__info">
+            <p>Срок: мин. 4 недели</p>
+            <p>Стоимость: 15% от стоимости стенда</p>
+          </div>
         </div>
       </div>
     </div>
@@ -74,6 +79,25 @@
 </script>
 
 <style scoped>
+  .block-services {
+    position: relative;
+  }
+  .block-services img {
+    position: absolute;
+    z-index: -1;
+  }
+  .block-services__img1 {
+    top: -100px;
+    left: 250px;
+  }
+  .block-services__img2 {
+    top: -100px;
+    right: 140px;
+  }
+  .block-services__img3 {
+    top: 400px;
+    left: 0;
+  }
   .services__title {
     font-size: 48px;
     line-height: 100%;

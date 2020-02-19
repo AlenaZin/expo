@@ -8,6 +8,8 @@
     <Express/>
     <Working/>
     <Advantage/>
+    <Review/>
+    <Request/>
     <Footer/>
   </div>
 </template>
@@ -22,12 +24,14 @@
   import Express from './components/Express';
   import Working from './components/Working';
   import Advantage from './components/Advantage';
+  import Review from './components/Review';
   import Footer from './components/Footer';
+  import Request from './components/Request';
+
 
   export default {
     name: 'app',
     components: {
-      Footer,
       Header,
       BlockExpo,
       About,
@@ -36,6 +40,9 @@
       Express,
       Working,
       Advantage,
+      Review,
+      Footer,
+      Request,
     },
   };
 </script>

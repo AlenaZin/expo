@@ -72,6 +72,7 @@
   }
   .footer__logo {
     margin-right: 16px;
+    margin-top: 10px;
   }
   .footer__subtitle {
     font-size: 14px;
@@ -97,7 +98,7 @@
     height: 16px;
     width: 97px;
     text-align: center;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
   }
   .footer__social-icon {
     justify-content: space-around;
